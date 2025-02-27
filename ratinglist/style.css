@@ -1,0 +1,102 @@
+* {
+    margin: 0 5px;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: verdana;
+    text-transform: capitalize;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(../image/bgRating.jpg);
+    color: #fff;
+}
+
+.clr{
+    background-color: rgba(45, 133, 130, 0.748);
+}
+
+table {
+    width: 100%;
+    border-radius: 7px;
+    border: 3px solid #812727;
+    margin: 15px 0;
+}
+
+th {
+    border: 1px solid #7b7878;
+    padding: 8px;
+    text-align: center;
+}
+
+#name,
+#rating {
+    width: 100%;
+    margin: 5px 0;
+    padding: 0 0 0 10px;
+    height: 55px;
+    border-radius: 7px;
+    border: none;
+    background-color: darkkhaki;
+}
+
+#name::placeholder,
+#rating::placeholder {
+    color: rgb(109, 109, 127);
+    font-size: 15px;
+}
+
+.judul {
+    background: linear-gradient(rgba(219, 160, 160, 0.664), rgba(187, 243, 168, 0.785), rgba(227, 227, 77, 0.363));
+}
+
+.rating {
+    background: linear-gradient(rgba(132, 222, 132, 0.522), rgba(225, 225, 113, 0.815), rgba(94, 217, 94, 0.314));
+}
+
+.name {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.name i {
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.name {
+    background: rgba(30, 103, 121, 0.666);
+    color: #fff;
+}
+
+.rate {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.rate i {
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.rate {
+    background: rgba(94, 155, 172, 0.732);
+    color: #fff;
+}
+
+#myInput {
+    margin: 10px 0;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: 1px solid #0988A9;
+}

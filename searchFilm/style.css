@@ -1,0 +1,81 @@
+* {
+    margin: 0 5px;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: verdana;
+    text-transform: capitalize;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(../image/bgRating.jpg);
+}
+
+table {
+    width: 100%;
+    border-radius: 7px;
+    border: 3px solid #812727;
+    margin: 15px 0;
+}
+
+.add{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: cadetblue;
+    border: none;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.add:hover{
+    background-color: rgb(77, 239, 231);
+}
+
+th, td {
+    border: 1px solid #7b7878;
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+}
+
+th{
+    background-color: rgb(168, 163, 26);
+    color: black;
+}
+
+.namaAnime, .nilai{
+    background-color: rgba(67, 69, 71, 0.513);
+}
+
+.name, .rating , .myInput{
+    width: 100%;
+    margin: 7px 0;
+    padding: 0 0 0 10px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(206, 203, 191);
+}
+
+.add{
+    margin: 7px 0;
+}
+
+.name::placeholder,
+.rating::placeholder, .myInput::placeholder {
+    color: rgb(109, 109, 127);
+    font-size: 15px;
+}
+
+.delete{
+    background-color: rgb(138, 135, 36);
+    cursor: pointer;
+    color: #fff;
+}
+
+.delete:hover{
+    background-color: #812727;
+}

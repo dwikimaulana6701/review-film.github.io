@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Movies Watch List</h1>
+    <div class="container">
+        <input type="text" class="name" placeholder="Movie Name"><br>
+        <input type="text" class="rating" placeholder="Movie Rating"><br>
+        <button class="add">Add Movie</button><br>
+        <input type="text" class="myInput" placeholder="Search..." />
+        <table>
+            <thead>
+                <tr >
+                    <th class="judul">Movie Title</th>
+                    <th class="rate">Movie Rating</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="myTable">
+                <tr class="table-item">
+                    <td class="namaAnime">Terminator - S3</td>
+                    <td class="nilai">8.5</td>
+                    <td class="delete">Delete</td>
+                </tr>
+                <tr class="table-item">
+                    <td class="namaAnime">Poweranger - 23</td>
+                    <td class="nilai">9.0</td>
+                    <td class="delete">Delete</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

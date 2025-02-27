@@ -1,0 +1,401 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.collapse {
+  margin-right: 50px;
+}
+
+.konten {
+  float: right;
+}
+
+.konten li {
+  list-style: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  font-size: 20px;
+}
+
+.nav-item{
+  padding: 0px 20px;
+}
+
+.dropdown-item{
+  font-size: 15px;
+}
+
+.top-wrapper {
+  background-image: url(https://www.pixel4k.com/wp-content/uploads/2019/07/digital-cave-3d-triangle_1563221536.jpg);
+  padding: 30% 0;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.text-wrapper p{
+  font-size: 15px;
+}
+
+main {
+  width: 70%;
+  height: auto;
+  background-color: cornflowerblue;
+}
+
+.container-card1{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card1-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+@media(max-width: 868px){
+  .card1-content{
+    flex-wrap: wrap;
+  }
+}
+
+.card1{
+  position: relative;
+  background: hsl(219, 13%, 35%);
+  max-width: auto;
+  width: 450%;
+  height: auto;
+  margin: 10px;
+  box-shadow: 5px 10px 25px rgb(1 1 1/20%);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card1-image{
+  max-height: auto;
+}
+
+.card1-image img{
+  max-width: 100%;
+  height: auto;
+}
+
+.card1-info{
+  position: relative;
+  color: #fff;
+  padding: 10px 20px 20px 10px;
+}
+
+.card1-info h6{
+  margin-bottom: 5px;
+}
+
+.card1-info h2{
+  color: lightgray;
+}
+
+.card1-tanggal{
+  margin-right:  auto;
+  color: rgb(219, 209, 185);
+}
+
+.card1-pemeran{
+  margin-left: auto;
+  color: rgb(219, 209, 185);
+}
+
+
+.pagination { 
+  text-align: center; 
+  margin: 30px 30px 60px; 
+  font-size: 20px;
+}
+
+.pagination li { 
+  display: inline-block; 
+  box-shadow: 20px 0px 25px rgb(1 1 1/20%); 
+  margin: 2px; 
+  color: #000;
+} 
+
+aside{
+  width: 30%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #73C6B6;
+  
+}
+
+.d{
+  display: flex;
+  margin: 20px;
+}
+
+.cards{
+  position: relative;
+  max-width: auto;
+  margin: 20px;
+  box-shadow: 0px 5px 25px rgb(1 1 1/20%);
+  background-image: linear-gradient(#CACFD2, #717D7E, #EC7063) ;
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+.card-info{
+  position: relative;
+  color: #fff;
+  padding: 10px 20px 20px;
+}
+
+.card-info h4{
+  margin-bottom: 5px;
+}
+
+.gambar{
+  width: 400px;
+  border: 10px solid rgb(64, 81, 69);
+  margin-top: 20px;
+}
+
+.text{
+  font-family: 'sans-serif';
+  border-bottom: solid 2px;
+}
+
+/* footer  */
+footer {
+  background: #000;
+  height: 150px;
+  width: 100%;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.gelombang{
+  border-bottom: 3px solid;
+  padding-bottom: 7px;
+}
+
+.footer-content h1 {
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.footer-content p {
+  margin: 0 auto;
+  line-height: 15px;
+  font-size: 15px;
+  color: #fff;
+}
+hr {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footer-menu ul {
+  padding-left: 20px;
+  display: flex;
+  font-size: 12px;
+  float: left;
+}
+.footer-menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+.footer-menu ul li a {
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover {
+  color: #27bcda;
+}
+.footer-menu p {
+  margin-right: 20px;
+  font-size: 12px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .news_img{
+    width: 100%;
+  }
+  
+  .blog-post_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+  }
+  
+  .blog-post{
+    width: 100%;
+    max-width: 90rem;
+    padding: 5rem;
+    background-color: rgb(154, 116, 116);
+    box-sizing: 0 1.4rem 8rem rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+  }
+  
+  .blog-post_info{
+    transform: translateX(-5rem); 
+    align-items: center;
+  }
+  
+  .blog-post_img{
+    width: 100%;
+    height: 100%;
+    min-width: 35rem;
+    max-width: 35rem;
+    height: 30;
+    transform: translateX(-7rem);
+    position: relative;
+  }
+  
+  .blog-post_img news_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: .8rem;
+  }
+  
+  .blog-post_img::before{
+    content: '';
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(79,172,254, .8), rgba(0, 242, 254), rgba(79,172,254, .8));
+    box-shadow: .5rem .5rem 3rem 1px rgba(0,0,0,.05);
+    border-radius: .8rem;
+  }
+  
+  .blog-post_date span{
+    display: block;
+    color: rgba(0,0,0,.5);
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  .blog-post_title{
+    font-size: 2.5rem;
+    margin: 1.5rem 0 2rem;
+    text-transform: uppercase;
+    color: #4facfe;
+  }
+  
+  .blog-post_text{
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    color: rgba(0,0,0,.7);
+  }
+  
+  .blog-post_cta{
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #fff;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius: .8rem;
+    text-decoration: none;
+  }
+  
+  .blog-post_cta:hover{
+    background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
+  }
+  
+  @media screen and (max-width: 1000px){
+    .blog-post{
+      max-width: 90rem;
+    }
+  
+    .blog-post_img{
+      min-width: 30rem;
+      max-width: 30rem;
+    }
+  }
+  
+  @media screen and (max-width: 868px){
+    .blog-post{
+      flex-direction: column;
+      padding: 9.3rem 9rem;
+    }
+  
+    .blog-post_img{
+      min-width: 100%;
+      max-width: 100%;
+      transform: translate(-5rem, -5rem);
+    }
+  }
+  
+  @media screen and (max-width: 647px){
+    .blog-post{
+      padding: 2.5rem;
+      flex-direction: column;
+    }
+  
+    .blog-post_img{
+      min-width: 100%;
+      max-width: 100%;
+      transform: translate(0, -8rem);
+    }
+  } */
